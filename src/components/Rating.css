@@ -1,0 +1,15 @@
+label {
+    display: inline-block;
+    cursor: pointer;
+    color: #ddd;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+input[type='radio'] {
+    display: none;
+}
+
+.filled {
+    color: #ffca3a;
+}

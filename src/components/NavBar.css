@@ -1,0 +1,23 @@
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: rgba(51, 51, 51, 0.9); /*semi-transparent*/
+    color: #fff;
+    /* background-image: url(); */
+    background-size: cover; /*ajusta la imagen al tamaño de la navbar*/
+    background-position: center; /* alinear la imagen del fondo al centro de la navbar*/
+    width: 100%;
+}
+
+.navbar_search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar_search input[type="text"] {
+    
+}
