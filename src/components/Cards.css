@@ -1,0 +1,9 @@
+.cards{
+    display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	/* grid-template-rows: 1fr 1fr  1fr 1fr; */
+	align-items: center; 
+	position:absolute;
+	z-index: 0;
+	width: 85%;
+}

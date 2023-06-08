@@ -2,7 +2,7 @@ import React from 'react';
 import './NavBar.css';
 import { useState } from 'react';
 
-export default function NavBar(onSearch) {
+export default function NavBar({onSearch}) {
 
   const [input, setInput] = useState('');
 
@@ -18,7 +18,7 @@ export default function NavBar(onSearch) {
 
   return (
     <nav className='navbar'>
-      <h1>NavBar</h1>
+      <h1>Movies</h1>
       <div className='navbar_search'>
         <input value={input} onChange={handleInput} type='text' placeholder='Search...' />
         <button onClick={handleSubmit} type='button'>Search</button>

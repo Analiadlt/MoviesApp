@@ -1,0 +1,32 @@
+.card {
+    /* display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-template-rows: 1fr 1fr  1fr 1fr; */
+	align-items: center;
+	background-color:  #a6a09c;
+	border-radius: 1.5rem;
+    /* border-color: #3972B8; */
+    /* border-width: 0.5rem; */
+    /* border-style: solid; */
+	position: relative;
+	/* width: max-content; */
+    /* height: auto; */
+	width: auto;
+	height: 500px;
+    margin: 0.5rem;
+    object-fit: cover;
+}
+/* .card {
+    width: 200px;
+    height: 500px;
+    margin-right: 1rem;
+    object-fit: cover;
+} */
+
+img {
+	/* width: 200px; */
+    height: 300px;
+    margin-right: 1rem;
+    object-fit: cover;
+    padding: 1.5rem;
+}

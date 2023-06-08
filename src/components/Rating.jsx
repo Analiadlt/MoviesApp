@@ -21,7 +21,7 @@ export default function Rating({ratingOrigin, changeRating}) {
 
     return (
         <div>
-            <h1>Rating</h1>
+            {/* <h1>Rating</h1> */}
             {[...Array(5)].map((star, i) => {
                 const ratingValue = i + 1;
 

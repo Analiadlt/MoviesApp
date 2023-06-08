@@ -1,0 +1,36 @@
+.carousel {
+ width: 100%;
+ /* max-width: 130em; */
+ background-color: lightskyblue;
+ overflow: hidden;
+}
+
+.carousel_cards {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+
+    transition: all .5s ease;
+    /* transform: translateX(0%); */
+   }
+
+.carousel_card {
+    width: calc(100%/2 - 2em);
+    min-height: 10vh;
+}
+
+.linki {
+}
+
+.carousel_controls {
+    width: 100%;
+    background-color: rgb(169, 86, 86);
+    padding: 1em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
