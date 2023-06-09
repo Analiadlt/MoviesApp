@@ -7,7 +7,7 @@
     background-color: rgba(51, 51, 51, 1); /*semi-transparent*/
     color: #fff;
     /* background-image: url(); */
-    background-size: cover; /*ajusta la imagen al tamaño de la navbar*/
+    /*background-size: cover; ajusta la imagen al tamaño de la navbar*/
     background-position: center; /* alinear la imagen del fondo al centro de la navbar*/
     width: 80%;
 	z-index: 3;

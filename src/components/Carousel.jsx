@@ -17,15 +17,11 @@ export default function Carousel({popular}) {
     
     return (
         <div className="carousel">
+            <h3>Popular Movies</h3>
             <div className="carousel_cards">
                 {visibleItems.map((item) => (
                     <div key={item.id} className="carousel_card">
-                        <img src={`https://image.tmdb.org/t/p/w500${item.poster_path}`} alt={item.title} />
-                        <Link className='linki' to={`/detail/${item.id}`}>
-                            <h3>{item.title.slice(0, 18)}</h3>
-                            <p>{item.overview.slice(0, 20)}</p> {/* se hizo un slice para reducir el texto */}
-                        </Link>
-                        
+                        <img src={`https://image.tmdb.org/t/p/w500${item.poster_path}`} alt={item.title} />                       
                     </div>
                 ))}
             </div>

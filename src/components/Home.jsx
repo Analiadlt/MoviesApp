@@ -30,16 +30,15 @@ export default function Home({allMovies, popular}) {
    
   return (
     <div className="home">
-       <h3>Popular Movies</h3>
       <div>
         <Carousel popular={popular} />
       </div>
 
-      <div></div>
+      {/* <div></div>
       <h3>All Movies</h3>
       <div>
         <Cards allMovies={allMovies} />
-      </div>
+      </div> */}
     </div>
   );
 }

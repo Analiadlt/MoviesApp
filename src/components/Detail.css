@@ -5,6 +5,7 @@
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
     padding: 1rem;
     padding-top: 240px;
+    color: black;
 }
 
 .movieDetail_poster {
@@ -30,10 +31,31 @@
     margin-bottom: 1rem;
 }
 
-.movieDetail_rating {
+/* .movieDetail_rating {
     font-size: 1.2rem;
     background-color:#f44336;
     color:#fff;
     padding: 0.25rem 0.5rem;
     border-radius: 4px;
+}
+
+.movieDetail_releaseDate{
+    font-size: 1.2rem;
+    background-color:#f44336;
+    color:#fff;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+}
+*/
+.movieDetail_description{
+    font-size: 1.2rem;
+    background-color:#f44336;
+    color:#fff;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px; 
+    text-align: justify;
+} 
+
+li {
+    text-align: left;
 }
